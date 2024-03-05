@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="5dp">
+
+    <RelativeLayout
+        android:id="@+id/RL_AddedUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:paddingTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="3dp">
+
+
+        <RelativeLayout
+            android:id="@+id/RL_Units"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite"
+            android:layout_marginBottom="10dp"
+            android:elevation="3dp"
+            android:padding="3dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/TV_unitName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="20dp"
+                android:text="TextView"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/TV_unitName"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/TV_unitCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="TextView"
+                    android:drawableStart="@drawable/ic_edit"
+                    android:paddingStart="20dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/TV_lecturerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="TextView"
+                    android:drawableStart="@drawable/ic_baseline_person_24"
+                    android:paddingStart="20dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/darkgrey"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TV_stage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/linear"
+                android:drawableStart="@drawable/ic_baseline_security_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="TextView"
+                android:textColor="@color/lightgrey"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

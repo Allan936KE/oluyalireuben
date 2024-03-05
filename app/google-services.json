@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "492932549721",
+    "project_id": "university-portal-61a71",
+    "storage_bucket": "university-portal-61a71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492932549721:android:73f100f050db6362cdf548",
+        "android_client_info": {
+          "package_name": "com.example.universityportal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQazxyAZyC4cPaIrzRxW8_jtIcNSF_9-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
