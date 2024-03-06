@@ -1,4 +1,4 @@
-```markdown
+
 # UniPortalApp
 
 UniPortalApp is a Java-based university student portal, powered by Firebase for efficient backend operations. This application simplifies unit registration, grade management, and provides personalized dashboards for students, lecturers, and parents.
@@ -28,9 +28,6 @@ UniPortalApp is a Java-based university student portal, powered by Firebase for 
 
 ## Contributing
 Feel free to contribute to the development of UniPortalApp. Fork the repository, make your changes, and submit a pull request.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 - The UniPortalApp team acknowledges the support of the open-source community.
