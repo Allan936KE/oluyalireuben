@@ -8,6 +8,7 @@ UniPortalApp is a Java-based university student portal, powered by Firebase for 
 - **Grade Management:** Lecturers can input and manage student grades.
 - **Personalized Dashboards:** Tailored access for students, lecturers, and parents.
 - **Enhanced Transparency:** Foster communication and collaboration in the academic journey.
+- - **Chat Interface:** Facilitate direct communication between lecturers and students.
 
 ## Getting Started
 
