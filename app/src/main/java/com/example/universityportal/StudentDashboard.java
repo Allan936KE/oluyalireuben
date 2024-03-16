@@ -28,6 +28,13 @@ public class StudentDashboard extends AppCompatActivity {
                 startActivity(new Intent(StudentDashboard.this, RegisteredUnits.class));
             }
         });
+        CardView chat = findViewById(R.id.cardViewChat);
+        chat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(StudentDashboard.this, Chats.class));
+            }
+        });
         CardView results = findViewById(R.id.cardViewResults);
         results.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -92,18 +92,19 @@ public class LecturerDashboard extends AppCompatActivity {
                     switch (item.getItemId()) {
                         case R.id.navHome:
                             // Start HomeActivity or perform relevant action
-                            startActivity(new Intent(LecturerDashboard.this, HomeActivity.class));
+                            startActivity(new Intent(LecturerDashboard.this, LecturerDashboard.class));
                             Toast.makeText(LecturerDashboard.this, "Home", Toast.LENGTH_SHORT).show();
-                            return true;
-                        case R.id.navProfile:
-                            // Start ProfileActivity or perform relevant action
-                            startActivity(new Intent(LecturerDashboard.this, ProfileActivity.class));
-                            Toast.makeText(LecturerDashboard.this, "Profile", Toast.LENGTH_SHORT).show();
                             return true;
                         case R.id.navAddUnit:
                             // Start AddUnitActivity or perform relevant action
                             startActivity(new Intent(LecturerDashboard.this, AddUnit.class));
                             Toast.makeText(LecturerDashboard.this, "Add Unit", Toast.LENGTH_SHORT).show();
+                            return true;
+                        case R.id.navChat:
+                            // Start AddUnitActivity or perform relevant action
+                            Toast.makeText(LecturerDashboard.this, "Chat with students", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(LecturerDashboard.this, Chats.class)
+                                    .putExtra("is_viewing_as_lecturer" , true));
                             return true;
                         case R.id.navView:
                             // Start Added Unit Activity or perform relevant action
